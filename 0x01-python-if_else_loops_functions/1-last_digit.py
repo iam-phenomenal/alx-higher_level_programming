@@ -1,6 +1,14 @@
 #!/usr/bin/python3
+
 import random
+
 number = random.randint(-10000, 10000)
 # YOUR CODE HERE
-remaider = number % 10
-print("Last digit of {} is {}".format(number, remaider))
+remainder = number % 10
+
+if remainder > 5:
+    print("Last digit of {} is {} and is greater than 5".format(number, remainder))
+elif remainder == 0:
+    print("Last digit of {} is {} and is 0".format(number, remainder))
+else:
+    print("Last digit of {} is {} and is less than 5 and not 0".format(number, remainder))
