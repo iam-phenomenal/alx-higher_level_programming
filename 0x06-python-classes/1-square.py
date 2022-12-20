@@ -10,6 +10,6 @@
 class Square:
     """Creating the square class based on the constraint above
     """
-
     def __init__(self, size):
+        """ Instantiating size"""
         self.size = size
