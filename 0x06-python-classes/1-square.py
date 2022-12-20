@@ -1,15 +1,12 @@
 #!/usr/bin/python3
 
-"""This module focuses on ALX task 1:
-    Constraint:
-        A Square class
-        Private instance attribute of size
+"""This module focuses on ALX task 1 [Python Classes]
 """
 
 
 class Square:
-    """Creating the square class based on the constraint above
+    """Creating the square class based on the constraints above
     """
     def __init__(self, size):
         """ Instantiating size"""
-        self.size = size
+        self.__size = size
