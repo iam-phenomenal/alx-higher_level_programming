@@ -4,14 +4,14 @@
 """
 
 
-class Square
+class Square:
     """Initializing class
     """
 
     def __init__(self, size=0):
         """
         Args:
-            size: Size of the square(int)
+            size: Length of the square(int)
         """
         if type(size) != int:
             raise TypeError("size must be an integer")
@@ -40,5 +40,3 @@ class Square
                 Area of square [INT]
         """
         return self.__size ** 2
-
-
