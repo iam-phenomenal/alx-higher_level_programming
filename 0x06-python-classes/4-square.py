@@ -4,7 +4,7 @@
 """
 
 
-class Square:
+class Square
     """Initializing class
     """
 
